@@ -1,14 +1,14 @@
-package com.levio.lab.bt.mappers;
+package com.levio.lab.bt.bloodpressure.mappers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+
+import com.levio.lab.bt.bloodpressure.services.feature.BloodPressureFeatureDto;
+import com.levio.lab.bt.bloodpressure.services.measurement.BloodPressureMeasurementDto;
 import org.junit.Before;
 import org.junit.Test;
-import com.levio.lab.bt.mappers.BloodPressureBytesMapper;
-import com.levio.lab.bt.services.bloodpressure.feature.BloodPressureFeatureDto;
-import com.levio.lab.bt.services.bloodpressure.measurement.BloodPressureMeasurementDto;
 
 public class BloodPressureBytesMapperTest {
 

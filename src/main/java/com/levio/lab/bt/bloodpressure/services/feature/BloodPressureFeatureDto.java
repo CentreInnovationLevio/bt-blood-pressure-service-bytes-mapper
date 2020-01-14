@@ -1,4 +1,4 @@
-package com.levio.lab.bt.services.bloodpressure.feature;
+package com.levio.lab.bt.bloodpressure.services.feature;
 
 public class BloodPressureFeatureDto {
 

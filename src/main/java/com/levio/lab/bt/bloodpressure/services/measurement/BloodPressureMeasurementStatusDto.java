@@ -1,4 +1,4 @@
-package com.levio.lab.bt.services.bloodpressure.measurement;
+package com.levio.lab.bt.bloodpressure.services.measurement;
 
 public class BloodPressureMeasurementStatusDto {
 

@@ -1,9 +1,9 @@
-package com.levio.lab.bt.mappers;
+package com.levio.lab.bt.bloodpressure.mappers;
 
-import com.levio.lab.bt.services.bloodpressure.measurement.BloodPressureMeasurementDto;
-import com.levio.lab.bt.services.bloodpressure.measurement.BloodPressureMeasurementFlagsDto;
-import com.levio.lab.bt.services.bloodpressure.measurement.BloodPressureMeasurementStatusDto;
-import com.levio.lab.bt.utils.ByteUtils;
+import com.levio.lab.bt.bloodpressure.services.measurement.BloodPressureMeasurementDto;
+import com.levio.lab.bt.bloodpressure.services.measurement.BloodPressureMeasurementFlagsDto;
+import com.levio.lab.bt.bloodpressure.services.measurement.BloodPressureMeasurementStatusDto;
+import com.levio.lab.bt.bloodpressure.utils.ByteUtils;
 
 class BloodPressureMeasurementBytesMapper {
 

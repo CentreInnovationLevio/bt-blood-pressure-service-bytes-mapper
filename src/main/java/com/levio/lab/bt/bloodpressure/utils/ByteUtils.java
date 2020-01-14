@@ -1,4 +1,4 @@
-package com.levio.lab.bt.utils;
+package com.levio.lab.bt.bloodpressure.utils;
 
 public class ByteUtils {
 
