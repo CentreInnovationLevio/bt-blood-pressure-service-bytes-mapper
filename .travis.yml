@@ -1,8 +1,11 @@
-sudo: required
+os: linux
+dist: xenial
+language: ruby
 jobs:
   include:
     - stage: deploy-prod
       language: java
+      jdk: openjdk13
       before_install: cd $TRAVIS_BUILD_DIR
       install: true
       script:
