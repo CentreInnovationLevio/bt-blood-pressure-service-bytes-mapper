@@ -64,17 +64,27 @@
 
     <repositories>
         <repository>
-            <id>central</id>
-            <name>bintray</name>
-            <url>https://jcenter.bintray.com</url>
+            <id>leviolab-release</id>
+            <name>leviolab jfrog releases</name>
+            <url>https://jfrog.leviolab.com/artifactory/libs-release</url>
+        </repository>
+        <repository>
+            <id>leviolab-snapshot</id>
+            <name>leviolab jfrog snapshots</name>
+            <url>https://jfrog.leviolab.com/artifactory/libs-snapshot</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
-            <id>central</id>
-            <name>bintray-plugins</name>
-            <url>https://jcenter.bintray.com</url>
+            <id>leviolab-release</id>
+            <name>leviolab jfrog releases</name>
+            <url>https://jfrog.leviolab.com/artifactory/libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>leviolab-snapshot</id>
+            <name>leviolab jfrog snapshots</name>
+            <url>https://jfrog.leviolab.com/artifactory/libs-snapshot</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
